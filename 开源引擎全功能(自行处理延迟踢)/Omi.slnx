@@ -1,0 +1,7 @@
+﻿<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Omi.vcxproj" Id="aa57be8a-56e3-47db-9b4c-5db554e08719" />
+</Solution>

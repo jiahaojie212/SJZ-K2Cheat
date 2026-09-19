@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="工具">
+      <UniqueIdentifier>{709f9873-25b5-46a1-beff-af48ff82a263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎">
+      <UniqueIdentifier>{25de032e-0939-43b9-9d2e-c6cea9e1ecfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="引擎\覆盖层">
+      <UniqueIdentifier>{e9e63256-d5ad-474a-824c-539c8b03fca6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="预编译头.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="工具\工具.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="工具\include\detours\detours.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="工具\include\detours\detver.h">
+      <Filter>工具</Filter>
+    </ClInclude>
+    <ClInclude Include="引擎\引擎.h">
+      <Filter>引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="引擎\游戏类.h">
+      <Filter>引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="引擎\偏移.h">
+      <Filter>引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="引擎\明文投影.h">
+      <Filter>引擎</Filter>
+    </ClInclude>
+    <ClInclude Include="引擎\覆盖层\原生绘制.h">
+      <Filter>引擎\覆盖层</Filter>
+    </ClInclude>
+    <ClInclude Include="硬件断点.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="断点清理.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="入口.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="预编译头.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="验证.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="工具\工具.cpp">
+      <Filter>工具</Filter>
+    </ClCompile>
+    <ClCompile Include="引擎\引擎.cpp">
+      <Filter>引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="引擎\游戏类.cpp">
+      <Filter>引擎</Filter>
+    </ClCompile>
+    <ClCompile Include="引擎\覆盖层\原生绘制.cpp">
+      <Filter>引擎\覆盖层</Filter>
+    </ClCompile>
+    <ClCompile Include="引擎\偏移混淆.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="detour_macros.inc">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="$(MSBuildThisFileDirectory)引擎\Engine.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+    <MASM Include="$(MSBuildThisFileDirectory)SysCalls.asm">
+      <Filter>源文件</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

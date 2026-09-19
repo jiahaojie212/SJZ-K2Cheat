@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Omi\\x64\\Debug\\原生绘制.obj",
+            "outputs": [
+                "Omi\\x64\\Debug\\原生绘制.h.obj.dt.module.json",
+                "Omi\\x64\\Debug\\原生绘制.h.obj.dt.d.json",
+                "Omi\\x64\\Debug\\Omi.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

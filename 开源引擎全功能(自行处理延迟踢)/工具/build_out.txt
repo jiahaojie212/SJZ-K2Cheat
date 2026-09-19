@@ -1,0 +1,31 @@
+
+  Assembling C:\Users\Administrator\Desktop\主\引擎\Engine.asm...
+  Assembling C:\Users\Administrator\Desktop\主\SysCalls.asm...
+  入口.cpp
+  验证.cpp
+  游戏类.cpp
+  引擎.cpp
+  预编译头.cpp
+  工具.cpp
+C:\Users\Administrator\Desktop\主\验证.cpp(76,52): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+C:\Users\Administrator\Desktop\主\验证.cpp(135,17): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+C:\Users\Administrator\Desktop\主\验证.cpp(140,23): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+C:\Users\Administrator\Desktop\主\验证.cpp(212,65): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+C:\Users\Administrator\Desktop\主\引擎\引擎.cpp(320,22): warning C4244: “初始化”: 从“const int”转换到“float”，可能丢失数据 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+C:\Users\Administrator\Desktop\主\引擎\引擎.cpp(320,22): warning C4244: “初始化”: 从“const int”转换到“const float”，可能丢失数据 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+C:\Users\Administrator\Desktop\主\引擎\引擎.cpp(885,16): warning C4091: “static ”: 没有声明变量时忽略“Engine::渲染单位::名字缓存项”的左侧 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+C:\Users\Administrator\Desktop\主\引擎\引擎.cpp(894,16): warning C4091: “static ”: 没有声明变量时忽略“Engine::渲染单位::组件缓存项”的左侧 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+C:\Users\Administrator\Desktop\主\引擎\引擎.cpp(1181,40): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+C:\Users\Administrator\Desktop\主\引擎\引擎.cpp(1216,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+C:\Users\Administrator\Desktop\主\引擎\引擎.cpp(1425,95): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+C:\Users\Administrator\Desktop\主\引擎\引擎.cpp(1425,41): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+  偏移混淆.cpp
+  原生绘制.cpp
+detours64.lib(detours.obj) : warning LNK4099: 未找到 PDB“detours.pdb”(使用“detours64.lib(detours.obj)”或在“C:\Users\Administrator\Desktop\主\x64\Release\detours.pdb”中寻找)；正在链接对象，如同没有调试信息一样 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+detours64.lib(modules.obj) : warning LNK4099: 未找到 PDB“detours.pdb”(使用“detours64.lib(modules.obj)”或在“C:\Users\Administrator\Desktop\主\x64\Release\detours.pdb”中寻找)；正在链接对象，如同没有调试信息一样 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+detours64.lib(disasm.obj) : warning LNK4099: 未找到 PDB“detours.pdb”(使用“detours64.lib(disasm.obj)”或在“C:\Users\Administrator\Desktop\主\x64\Release\detours.pdb”中寻找)；正在链接对象，如同没有调试信息一样 [C:\Users\Administrator\Desktop\主\Omi.vcxproj]
+  Omi.vcxproj -> C:\Users\Administrator\Desktop\主\x64\Release\WwiseSoundEngine.dll
+  裁剪 EXCEPTION unwind 元数据 (栈隐形: 0x7FFF 私有页帧天然 leaf 截断) + 删除 PDB/ILK (防 AI 逆向取符号)
+  [i] WwiseSoundEngine.dll
+  [i]   Exception 目录: RVA=0x00051000 Size=0x00002D9C (有节, 973 项)
+  [+]   已清零 -> RVA=0 Size=0 (共写 8 字节)

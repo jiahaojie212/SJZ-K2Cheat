@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\administrator\\desktop\\开源引擎全功能(自行处理延迟踢)\\引擎\\覆盖层\\原生绘制.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "d:\\ide\\vc\\tools\\msvc\\14.51.36231\\include\\cstdint",
+            "d:\\ide\\vc\\tools\\msvc\\14.51.36231\\include\\yvals_core.h",
+            "d:\\ide\\vc\\tools\\msvc\\14.51.36231\\include\\vcruntime.h",
+            "d:\\ide\\vc\\tools\\msvc\\14.51.36231\\include\\sal.h",
+            "d:\\ide\\vc\\tools\\msvc\\14.51.36231\\include\\concurrencysal.h",
+            "d:\\ide\\vc\\tools\\msvc\\14.51.36231\\include\\vadefs.h",
+            "d:\\ide\\vc\\tools\\msvc\\14.51.36231\\include\\xkeycheck.h",
+            "d:\\ide\\vc\\tools\\msvc\\14.51.36231\\include\\stdint.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
